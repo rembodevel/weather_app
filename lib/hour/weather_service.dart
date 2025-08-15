@@ -7,7 +7,7 @@ import 'hourly_forecast_data.dart';
 class WeatherService {
   final Dio _dio = Dio(); // Создаем экземпляр Dio для HTTP-запросов
   final String _apiKey =
-      'ca6048d550c19796969a68b87e85d062'; // API ключ OpenWeatherMap
+      ''; // API ключ OpenWeatherMap
 
   // Метод получения прогноза с API и преобразования его в список UI моделей
   Future<List<HourlyWeatherModel>> getHourlyForecast(double lat, double lon) async {
