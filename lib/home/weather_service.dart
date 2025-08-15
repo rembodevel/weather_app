@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http; // HTTP-клиент
 import 'weather_model.dart'; // Импорт модели погоды
 
 class WeatherService {
-  final String apiKey = 'ca6048d550c19796969a68b87e85d062';  // API-ключ, полученный с сайта https://openweathermap.org
+  final String apiKey = '';  // API-ключ, полученный с сайта https://openweathermap.org
 
   // Базовый URL для текущей погоды по названию города
   final String baseUrl = 'https://api.openweathermap.org/data/2.5/weather';
