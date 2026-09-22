@@ -1,16 +1,32 @@
 # weather_app
 
-A new Flutter project.
+Мобильное приложение для просмотра текущей погоды по названию города.
 
-## Getting Started
+## Возможности
 
-This project is a starting point for a Flutter application.
+- Поиск погоды по названию города
+- Отображение текущей температуры и погодных условий
+- Сохранение последнего выбранного города
+- Навигация между экранами через BottomNavigationBar
+- Использование изображений и шрифтов из assets
 
-A few resources to get you started if this is your first Flutter project:
+## Технологии
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- BLoC / Cubit
+- REST API
+- OpenWeather API
+- HTTP
+- JSON
+- SQLite / sqflite
+- Git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Архитектура
+В приложении используется BLoC/Cubit для управления состоянием.
+API используется для получения данных о погоде, а SQLite — для локального хранения последнего выбранного города.
+
+## Основные пакеты
+flutter_bloc:
+http:
+sqflite:
